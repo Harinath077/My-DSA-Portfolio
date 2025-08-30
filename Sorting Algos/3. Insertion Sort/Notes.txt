@@ -1,0 +1,18 @@
+Time Complexity
+
+Worst Case (descending sorted) → O(n²)
+
+Best Case (already sorted) → O(n)
+
+Why Use Insertion Sort?
+
+Adaptive:
+Steps get reduced if the array is already sorted
+(i.e., the number of swaps is reduced compared to bubble sort).
+
+Stable Sorting Algorithm:
+Maintains the relative order of equal elements.
+
+Good for Smaller Values of n:
+Works well when the array is partially sorted.
+Often used as part of hybrid sorting algorithms.
