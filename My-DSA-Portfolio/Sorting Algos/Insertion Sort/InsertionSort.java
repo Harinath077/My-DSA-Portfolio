@@ -1,4 +1,4 @@
-package My-DSA-Portfolio.Sorting Algos.Insertion Sort;
+
 
 public class InsertionSort {
      // Function to sort the array using insertion sort algorithm
