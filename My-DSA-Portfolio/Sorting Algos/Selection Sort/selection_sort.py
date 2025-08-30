@@ -9,3 +9,8 @@ class Solution:
             arr[i],arr[min] = arr[min],arr[i]
                  
         return arr
+    
+arr = [98, 45, 69, 6]
+n = len(arr)
+obj = Solution()
+print(obj.selectionSort(arr, n))
