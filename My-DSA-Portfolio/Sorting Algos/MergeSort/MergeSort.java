@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 import java.util.ArrayList;
 public class MergeSort {
     void merge(int[] arr, int low, int mid, int high){
@@ -39,6 +39,13 @@ public class MergeSort {
         mergeSort(arr, low, mid);
         mergeSort(arr, mid + 1, high);
         merge(arr, low, mid, high);
+    }
+    public static void main(String[] args) {
+        int[] arr = {38, 27, 43, 3, 9, 82, 10};
+        MergeSort ms = new MergeSort();
+        ms.mergeSort(arr, 0, arr.length - 1);
+        System.out.print("Sorted array: ");
+        System.out.println(Arrays.toString(arr));
     }
 }
 
