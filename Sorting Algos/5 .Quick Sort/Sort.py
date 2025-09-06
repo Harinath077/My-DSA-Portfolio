@@ -4,7 +4,7 @@ def partition(arr, low, high):
     j = high
 
     while i < j:
-        # Find an element greater than or equal to the pivot
+        # Find an element greater than or equal to the pivo
         while i <= high - 1 and pivot >= arr[i]: #arr[i] <= pivot:
             i += 1
         # Find an element less than the pivot

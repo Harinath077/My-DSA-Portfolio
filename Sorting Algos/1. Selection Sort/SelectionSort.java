@@ -10,7 +10,7 @@ class Solution {
                 }
             }
             
-            // Swap arr[i] and arr[minIndex]
+            // Swap arr[i] and  arr[minIndex]
             int temp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = temp;
