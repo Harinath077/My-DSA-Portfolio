@@ -24,7 +24,7 @@ class Math_1:
 
         # Count the occurrences of each number
         for num in nums:
-            freq[num + 10] += 1  # Offset -10 to index 0, -9 to index 1, ..., 10 to index 20
+            freq[num + 10] += 1  # Offset -10 to index 0, -9 to index 1, ....., 10 to index 20
 
         # Print the frequencies
         for i in range(-10, 11):  # Iterate from -10 to 10
