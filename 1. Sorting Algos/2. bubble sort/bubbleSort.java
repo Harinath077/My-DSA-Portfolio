@@ -1,4 +1,4 @@
-class Solution {
+class BubbleSort {
     // Function to sort the array using bubble sort algorithm.
     public void bubbleSort(int arr[], int n) {
         for (int i = 0; i < n; i++) {

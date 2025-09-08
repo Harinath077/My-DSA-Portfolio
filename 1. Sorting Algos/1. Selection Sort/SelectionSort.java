@@ -1,4 +1,4 @@
-class Solution {
+class SelectionSort {
     // Function to sort the array using selection sort algorithm
     public void selectionSort(int arr[], int n) {
         for (int i = 0; i < n - 1; i++) {
