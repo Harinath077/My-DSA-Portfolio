@@ -1,8 +1,6 @@
-
-
 public class InsertionSort {
-     // Function to sort the array using insertion sort algorithm
-    public void insertionSort(int arr[], int n) {
+    // Function to sort the array using insertion sort algorithm
+    public void insertionSort(int[] arr, int n) {
         for (int i = 1; i < n; i++) {
             int key = arr[i];
             int j = i - 1;
@@ -17,3 +15,4 @@ public class InsertionSort {
         }
     }
 }
+
