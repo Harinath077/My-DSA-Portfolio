@@ -22,8 +22,8 @@ class SumOFEvenAndOdd_index:
     
     def approach2(self, n):
         # Count of odd and even numbers
-        odd_count = (n + 1) // 2  # Number of odd numbers
-        even_count = n // 2       # Number of even numbers
+        odd_count = (n + 1) // 2   # Number of odd numbers
+        even_count = n // 2        # Number of even numbers
 
         # Using the formulas
         odd_sum = odd_count ** 2
