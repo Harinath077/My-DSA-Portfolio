@@ -69,7 +69,7 @@ class Optimal:
             results.append(prime_prefix[R] - prime_prefix[L - 1])
         return results
 
-# Example Usa
+# Example Usage
 queries = [(3, 10), (2, 20), (1, 25)]
 obj = Optimal()
 print(obj.count_primes_optimal(queries))
