@@ -58,7 +58,7 @@ nums = [-10, -5, -10, 0, 5, 10, 5, -1, 0, 10]
 n = 56789
 m = Math_1()
 N = 121
-#m.count_frequency(nums)
+m.count_frequency(nums)
 print(m.count_digit(n))
 print(m.reverse_int(N))
 print(m.is_palindrom(N))
