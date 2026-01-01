@@ -48,7 +48,7 @@ print(obj.count_primes_better(queries))
 class Optimal:
     def sieve_prefix(self,N):
         prime = [1] * (N + 1)
-        prime[0] = prime[1] = 0  # 0 and 1 are not prime
+        prime[0] = prime[1] = 0  # 0 and 1 are not Prime
         
         for i in range(2, int(N**0.5) + 1):
             if prime[i]:
